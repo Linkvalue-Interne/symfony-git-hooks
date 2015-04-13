@@ -1,0 +1,45 @@
+# Project conf
+.bundle/
+.buildpath
+.project
+.settings
+*.sublime-*
+.idea/*
+.DS_*
+/nbproject/*
+
+# symfony
+/web/bundles/
+/web/css/*
+/web/js/*
+!/web/css/.gitkeep
+!/web/js/.gitkeep
+/app/bootstrap.php.cache
+/app/cache/*
+/app/config/parameters.yml
+/app/config/parameters.ini
+/app/logs/*
+!app/cache/.gitkeep
+!app/logs/.gitkeep
+/build/
+/bin/
+*~
+
+# dependencies
+/vendor/
+/composer.phar
+/node_modules/
+/npm-debug.log
+/web/vendor/
+
+# capfiles
+.bundle/*
+Gemfile.lock
+.cap_tasks~
+
+# coverages
+/web/tests-coverage
+
+# Apache files
+*.htaccess
+
