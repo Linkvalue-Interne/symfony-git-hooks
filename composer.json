@@ -1,0 +1,12 @@
+{
+    "name": "majora/symfony-git-hooks",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Team Link Value",
+            "email": "partners@link-value.fr"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
