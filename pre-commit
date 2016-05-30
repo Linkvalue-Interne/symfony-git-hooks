@@ -21,7 +21,7 @@ SFILES=${SFILES:-$STAGED_FILES_CMD}
 echo "Applying \033[1;32mphp-cs-fixer \033[0mon committed files..."
 for FILE in $SFILES
 do
-    php bin/php-cs-fixer fix $FILE -q --level=symfony
+    php bin/php-cs-fixer fix $FILE -q
     git add $FILE
 done
 
